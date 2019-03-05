@@ -1,1 +1,104 @@
-style.css
+body{
+	background-color: #FFEAD8;
+	font-family: avenir light;
+	text-align: center;
+	margin: 0 auto;
+}
+div{
+	width: 60%;
+	margin: 0 auto; 
+	padding: 20px;
+}
+header{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvndWBq03QDtg4D6sCmUCKsPLDIIeUGJgLX_ffG2a_vaA1-n3j);
+	text-align: center;
+}
+h1{
+	margin-top:40px;
+	font-family: avenir black;
+	color: #1A4E57;
+	font-size: 80px;
+
+}
+h2{
+	font-family: avenir black;
+	color: #1A4E57;
+	font-size: 50px;
+}
+h3{
+	margin-top:40px;
+	font-family: avenir black;
+	font-size: 25px;
+	color:#1A4E57;
+}
+h4{
+	margin-top:30px;
+	font-family: avenir black;
+	font-size: 34px;
+	color:#1A4E57;
+}
+h6{
+	margin-top:20px;
+	font-family: avenir black;
+	font-size: 20px;
+	color:#1A4E57;
+}
+.byline {
+	font-size:10px
+}
+
+h6.byline {
+	font-color: red;
+}
+
+h6.timestamp {
+	font-family: helvetica;
+}
+p{
+	font-family: avenir light;
+	color: #1A4E57;
+}
+ul.cv{
+  list-style-type: square;
+}
+li.cv{
+  list-style-type: square;
+}
+ul{
+	background-color: lightgrey;
+	padding: 12px;
+	margin-left: 220px;
+	margin-right: 220px;
+}
+li{
+	display:inline;
+	font-size:20px;
+	color:#C71585;
+	margin-left: 25px;
+	margin-right:25px;
+}
+div.circles{
+	display:inline;
+	margin-top: 100px;
+}
+a.nav-link:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+
