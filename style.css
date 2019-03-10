@@ -1,6 +1,6 @@
 body{
-	background-color: #FFEAD8;
-	font-family: avenir light;
+	background-color: white;
+	font-family: caslon,georgia,serif;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -10,38 +10,43 @@ div{
 	padding: 20px;
 }
 header{
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvndWBq03QDtg4D6sCmUCKsPLDIIeUGJgLX_ffG2a_vaA1-n3j);
 	text-align: center;
+}
+.header-navbar__logo__2l9RI{
+    display: block;
+    width: 16%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top:20px;
 }
 h1{
 	margin-top:40px;
-	font-family: avenir black;
-	color: #1A4E57;
+	font-family: caslon,georgia,serif;
+	color: black;
 	font-size: 80px;
-
 }
 h2{
-	font-family: avenir black;
-	color: #1A4E57;
-	font-size: 50px;
+	font-family: caslon,georgia,serif;
+	color: black;
+	font-size: 30px;
 }
 h3{
 	margin-top:40px;
-	font-family: avenir black;
+	font-family: caslon,georgia,serif;
 	font-size: 25px;
-	color:#1A4E57;
+	color: black;
 }
 h4{
-	margin-top:30px;
-	font-family: avenir black;
-	font-size: 34px;
-	color:#1A4E57;
+	font-family: caslon,georgia,serif
+	font-size: 18px;
+	color:black;
 }
 h6{
 	margin-top:20px;
-	font-family: avenir black;
+	font-family:caslon,georgia,serif;
 	font-size: 20px;
-	color:#1A4E57;
+	color:black;
 }
 .byline {
 	font-size:10px
@@ -56,49 +61,81 @@ h6.timestamp {
 }
 p{
 	font-family: avenir light;
-	color: #1A4E57;
+	color: black;
 }
-ul.cv{
-  list-style-type: square;
-}
-li.cv{
-  list-style-type: square;
+img{
+	display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
 ul{
-	background-color: lightgrey;
+	background-color: white;
 	padding: 12px;
-	margin-left: 220px;
-	margin-right: 220px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 li{
 	display:inline;
 	font-size:20px;
-	color:#C71585;
-	margin-left: 25px;
-	margin-right:25px;
+	color: black;
+	margin-left: 10px;
+	margin-right:10px;
 }
-div.circles{
+div.astro{
 	display:inline;
 	margin-top: 100px;
+	border-style:solid;
+	border-color:black;
 }
 a.nav-link:link
 {
-   color: #fb3f00;
+   color: red;
    text-decoration: none;
 }
 a.nav-link:visited
 {
-   color: #fb3f00;
+   color: red;
    text-decoration: none;
 }
 a.nav-link:hover
 {
-   color: #fb3f00;
+   color: red;
    text-decoration: none;
 }
 a.nav-link:active
 {
-   color: #fb3f00;
+   color: red;
    text-decoration: none;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+a:link {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:lightblue;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
