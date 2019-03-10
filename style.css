@@ -73,10 +73,17 @@ img{
     height: auto;
     margin: 0 auto;
 }
+
+div.header{
+	font-size:20px;
+	font-style:italic;
+
+}
 div.stories{
 	font-color:red;
-	size: 90px;
 	border-style:solid;
+	margin:auto;
+	border-color:black;
 }
 
 ul{
