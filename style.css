@@ -2,12 +2,16 @@ body{
 	background-color: white;
 	font-family: caslon,georgia,serif;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 }
 div{
-	width: 60%;
+	width: 80%;
 	margin: 0 auto; 
-	padding: 20px;
+	padding: 10px;
+}
+img {
+	width:40%;
+	padding: 10px;
 }
 header{
 	text-align: center;
@@ -69,6 +73,13 @@ img{
     height: auto;
     margin: 0 auto;
 }
+div.stories{
+	font-color:red;
+	size: 90px;
+	border-style:solid;
+	border-color:red;
+}
+
 ul{
 	background-color: white;
 	padding: 12px;
@@ -107,18 +118,6 @@ a.nav-link:active
 {
    color: red;
    text-decoration: none;
-}
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 a:link {
   text-decoration: none;
